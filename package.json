@@ -1,7 +1,7 @@
 {
-  "name": "react-package-template",
+  "name": "jsx-sql",
   "version": "0.1.0",
-  "description": "Minimum configuration react template for publishing packages to npm.",
+  "description": "A SQL notation that mimic JSX.",
   "type": "module",
   "main": "./dist/index.umd.cjs",
   "module": "./dist/index.js",
@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ryohidaka/react-package-template.git"
+    "url": "git+https://github.com/ryohidaka/jsx-sql.git"
   },
   "author": "ryohidaka",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ryohidaka/react-package-template/issues"
+    "url": "https://github.com/ryohidaka/jsx-sql/issues"
   },
-  "homepage": "https://github.com/ryohidaka/react-package-template#readme",
+  "homepage": "https://github.com/ryohidaka/jsx-sql#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^15.0.2",
