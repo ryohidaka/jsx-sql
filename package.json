@@ -18,11 +18,12 @@
     "dev": "vite",
     "build": "tsc && vite build --emptyOutDir false",
     "preview": "vite preview",
-    "prepare": "husky install && npm run cp-wasm",
+    "prepare": "husky install && npm run cp-wasm && make-db",
     "test": "VITEST_MIN_THREADS=6 VITEST_MAX_THREADS=6 vitest run --passWithNoTests",
     "coverage": "vitest run --coverage",
     "format": "npx prettier . --write",
-    "cp-wasm": "cp node_modules/sql.js/dist/sql-wasm.wasm public/"
+    "cp-wasm": "cp node_modules/sql.js/dist/sql-wasm.wasm public/",
+    "make-db": "touch ./db/sqlite.db"
   },
   "repository": {
     "type": "git",
