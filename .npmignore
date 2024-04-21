@@ -1,0 +1,24 @@
+/node_modules
+/src
+tsconfig.json
+
+## Tests
+setup.ts
+/tests
+
+## Prettier
+.prettierignore
+.prettierrc.json
+
+## ESLint
+.eslintrc.json
+
+#Git hooks
+.husky/
+
+## GitHub
+.github
+
+## Vite
+vite.config.ts
+public
