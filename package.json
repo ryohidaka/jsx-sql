@@ -1,6 +1,6 @@
 {
   "name": "jsx-sql",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "A SQL notation that mimic JSX.",
   "type": "module",
   "main": "./dist/index.umd.cjs",
