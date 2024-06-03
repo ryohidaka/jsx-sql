@@ -38,7 +38,7 @@
   "homepage": "https://github.com/ryohidaka/jsx-sql#readme",
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^15.0.2",
+    "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^14.5.2",
     "@types/node": "^20.12.7",
     "@types/react": "^18.2.79",
@@ -52,7 +52,7 @@
     "happy-dom": "^14.7.1",
     "husky": "^9.0.11",
     "lint-staged": "^15.2.2",
-    "prettier": "3.2.5",
+    "prettier": "3.3.0",
     "typescript": "^5.4.5",
     "vite": "^5.2.10",
     "vite-plugin-dts": "^3.8.3",
